@@ -1,0 +1,32 @@
+# Dataset
+dataset/MNIST/*.gz
+
+# Model checkpoints
+best_models_*/
+ova_models/
+ova_models_v2/
+ova_small_*/
+partc_*/
+checkpoints_upload/
+
+# Generated images
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+wandb/
+
+# Virtual environment
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Pickle index files
+*.pickle
+!README.md
